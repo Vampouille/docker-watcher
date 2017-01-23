@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER fvanderbiest "julien.acroute@camptocamp.com"
+MAINTAINER vampouille "julien.acroute@camptocamp.com"
 
 RUN apt-get update && \
     apt-get install -y inotify-tools && \
